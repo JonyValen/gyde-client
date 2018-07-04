@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+body {
+  background-color: #F6F6F6;
+  margin: 0;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-text {
+  font-family: 'Karla';
+  font-size: 1.25rem;
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+}
+.main-text {
+  font-family: 'Karla';
+  font-size: 2rem;
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid white; */
+  margin-top: 5%;
+}
+
+.button {
+  height: 2.5rem;
+  margin-left: 5%;
+  width: 7rem;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+
+}
+.button a {
+  text-decoration: none;
+  font-family: 'Karla';
+  font-size: 1rem;
+}
+
+.post-container {
+  margin-top: 5%;
+}
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main-text {
+      font-size: 1.5rem;
+    }
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  }
