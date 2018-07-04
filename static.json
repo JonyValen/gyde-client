@@ -5,7 +5,7 @@
   },
   "proxies": {
     "/api":{
-      "origin": "https://gyde-server.herokuapp.com/"
+      "origin": "https://gyde-server.herokuapp.com/api"
     }
   }
 }
