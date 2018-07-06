@@ -4,6 +4,7 @@ import '../styles/Homepage.css'
 import PostTimeline from './PostTimeline';
 const Homepage = ({ currentUser }) => {
   if(!currentUser.isAuthenticated) {
+    return (
     <div className='text-container'>
         <div className='main-text'>
           <h2>We are here to change<br/>Ed-Tech for the better.</h2>
@@ -16,6 +17,7 @@ const Homepage = ({ currentUser }) => {
           <button className='button'><Link to ='/signin'>Sign In</Link></button>
         </div>
     </div>
+    )
   }
   return (
     <div className='post-container'>
