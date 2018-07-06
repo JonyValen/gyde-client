@@ -4,7 +4,7 @@
   margin: 0 auto;
   /* border: 1px solid black; */
   width: 30%;
-  color: white;
+  color: black;
   font-family: 'Karla';
   margin-top: 8%;
 }
@@ -27,7 +27,7 @@
   margin-bottom: 5%;
   outline: none;
   background: transparent;
-  color: white;
+  color: black;
 }
 
 input:-webkit-autofill,
@@ -35,7 +35,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #fff !important;
+    -webkit-text-fill-color: black !important;
 }
 
 .text-box {
@@ -52,7 +52,7 @@ input:-webkit-autofill:active {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: solid #eeeeee 1px;
+  border-bottom: solid black 1px;
   padding: 3px 10px;
   margin-bottom: 4%;
   font-size: 1rem;
