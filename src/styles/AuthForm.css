@@ -46,7 +46,7 @@ input:-webkit-autofill:active {
   outline: none;
   border-radius: 4px; */
   background-color: transparent;
-  color: #eeeeee;
+  color: black;
   outline: none;
   outline-style: none;
   border-top: none;
@@ -71,7 +71,7 @@ input:-webkit-autofill:active {
       flex-direction: column;
       margin: 0 auto;
       width: 70%;
-      color: white;
+      color: black;
       font-family: 'Karla';
       margin-top: 10%;
     }
