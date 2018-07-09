@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.3)),url('../images/library.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5)),url('../images/library.jpg');
   background-position: center;
   margin: 0;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
   color: white;
   width: 50%;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .button-container {
@@ -56,6 +56,17 @@ body {
   margin-top: 5%;
 }
 
+.mission-statement {
+  margin-top: 2%;
+}
+
+.bullet-points {
+  margin-top: 2%;
+}
+
+.last-line-mission {
+  margin-top: 2%;
+}
 
 
 @media only screen
