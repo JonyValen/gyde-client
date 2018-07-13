@@ -15,9 +15,9 @@ const Homepage = ({ currentUser }) => {
         <div className='description-text mission-statement'>
         Specifically, our mission is two fold:<br/>
         <div className='bullet-points'>
-        •To communicate research among professors in order to expand the realm of knowledge accessible to mankind.<br/>
+        •To communicate research to professors in order to expand the realm of knowledge accessible to humanity.<br/>
 
-        •To provide guidance among students in order to expand the realm of mankind having access to knowledge.<br/>
+        •To provide guidance to students in order to expand the realm of humanity having access to knowledge.<br/>
         </div>
         <div className='last-line-mission'>
         In doing so, we have the opportunity to become the first education platform to connect secondary students to college students, and college students to academic researchers.
